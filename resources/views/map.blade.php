@@ -3,6 +3,7 @@
 @push('head')
     <!-- Mapbox GL JS -->
     <script src="{{ asset('js/map.js') }}" defer></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
 
     <style type="text/css">
         #map {

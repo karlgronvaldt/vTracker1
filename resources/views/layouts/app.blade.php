@@ -25,9 +25,7 @@
 <body>
     <div id="app">
         <button id="modalbtn" @click="showModal = !showModal">?</button>
-        <locdata-component v-if="showModal" id="modal">
-
-        </locdata-component>
+        <locdata-component v-if="showModal" id="modal"></locdata-component>
     </div>
 
     <main class="py-4">
