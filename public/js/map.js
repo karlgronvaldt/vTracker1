@@ -148,7 +148,7 @@ var mapboxgl = __webpack_require__(/*! mapbox-gl/dist/mapbox-gl.js */ "./node_mo
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2FybGdyb252YWxkdCIsImEiOiJjazg2M3JueDUwM3dkM21wN3g0aGZreWltIn0.lxxD9rYjHnNLwMSIKcQ80A';
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/dark-v10',
+  style: 'mapbox://styles/mapbox/light-v10',
   center: [11, 56],
   zoom: 6
 });
@@ -182,7 +182,7 @@ map.on('load', function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/kag/dev/php/vTracker/resources/js/map.js */"./resources/js/map.js");
+module.exports = __webpack_require__(/*! /home/vagrant/vTracker/resources/js/map.js */"./resources/js/map.js");
 
 
 /***/ })
